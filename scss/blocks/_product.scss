@@ -1,0 +1,148 @@
+.product {
+  background-color:transparent;
+  padding-bottom: 360px;
+}
+
+.product__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 180px;
+}
+
+.product__img {
+  max-width: 615px;
+  width: 100%;
+  height: 464px;
+}
+
+.product__box-info {
+  max-width: 563px;
+  width: 100%;
+}
+
+.product__box-title {
+  max-width: 506px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 19px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.product__box-desc {
+  margin: 0px;
+  margin-bottom: 16px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.product__box-link {
+  max-width: 166px;
+  width: 100%;
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 19px;
+  color: #62e0d9;
+  border-bottom: solid 1px  #62e0d9;
+}
+
+.product__box-img {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+}
+
+
+.product__list {
+  position: relative;
+  z-index: 5;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product__list::before {
+  background-image: url(/img/“-copy.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 5;
+  left: -10px;
+  top: -35px;
+  width: 79px;
+  height: 200px;
+  content:'';
+}
+
+.product__item {
+  position: relative;
+  z-index: 10;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  max-width: 360px;
+  width: 100%;
+  background-color: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 3.93258px;
+}
+
+.product__list-info {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.product__list-box {
+  display: flex;
+  align-items: center;
+}
+
+.product__list-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.product__list-fullname {
+  margin-left: 8px;
+  padding-top: 5px;
+}
+
+.product__list-name {
+  margin: 0px;
+  margin-bottom: 4px;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.product__list-position {
+  margin: 0px;
+  font-family: 'Open Sans';
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
